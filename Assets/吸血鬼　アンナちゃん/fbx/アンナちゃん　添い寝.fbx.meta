@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 725d181ab4a0ba44cb15e838cbc1ce6d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cube
+    100002: "\u30A2\u30DB\u6BDB"
+    100004: //RootNode
+    100006: "\u30EC\u30FC\u30B9"
+    100008: "\u4F53"
+    100010: "\u524D\u9AEA"
+    100012: "\u670D"
+    100014: "\u670D.001"
+    100016: "\u6A2A\u9AEA"
+    100018: "\u7D20\u4F53\u3000\u524A\u9664\u90E8\u5206"
+    100020: "\u9854"
+    100022: "\u9AEA\u306E\u5F71"
+    400000: Cube
+    400002: "\u30A2\u30DB\u6BDB"
+    400004: //RootNode
+    400006: "\u30EC\u30FC\u30B9"
+    400008: "\u4F53"
+    400010: "\u524D\u9AEA"
+    400012: "\u670D"
+    400014: "\u670D.001"
+    400016: "\u6A2A\u9AEA"
+    400018: "\u7D20\u4F53\u3000\u524A\u9664\u90E8\u5206"
+    400020: "\u9854"
+    400022: "\u9AEA\u306E\u5F71"
+    2100000: "\u670D"
+    2100002: "\u9AEA"
+    2100004: "\u9854"
+    2100006: "\u8868\u60C5\u7528"
+    2100008: "\u4F53"
+    2100010: "\u9AEA\u306E\u5F71"
+    2300000: Cube
+    2300002: "\u30A2\u30DB\u6BDB"
+    2300004: "\u30EC\u30FC\u30B9"
+    2300006: "\u4F53"
+    2300008: "\u524D\u9AEA"
+    2300010: "\u670D"
+    2300012: "\u670D.001"
+    2300014: "\u6A2A\u9AEA"
+    2300016: "\u7D20\u4F53\u3000\u524A\u9664\u90E8\u5206"
+    2300018: "\u9854"
+    2300020: "\u9AEA\u306E\u5F71"
+    3300000: Cube
+    3300002: "\u30A2\u30DB\u6BDB"
+    3300004: "\u30EC\u30FC\u30B9"
+    3300006: "\u4F53"
+    3300008: "\u524D\u9AEA"
+    3300010: "\u670D"
+    3300012: "\u670D.001"
+    3300014: "\u6A2A\u9AEA"
+    3300016: "\u7D20\u4F53\u3000\u524A\u9664\u90E8\u5206"
+    3300018: "\u9854"
+    3300020: "\u9AEA\u306E\u5F71"
+    4300000: Cube
+    4300002: "\u670D.001"
+    4300004: "\u30A2\u30DB\u6BDB"
+    4300006: "\u9854"
+    4300008: "\u30EC\u30FC\u30B9"
+    4300010: "\u7D20\u4F53\u3000\u524A\u9664\u90E8\u5206"
+    4300012: "\u9AEA\u306E\u5F71"
+    4300014: "\u4F53"
+    4300016: "\u6A2A\u9AEA"
+    4300018: "\u524D\u9AEA"
+    4300020: "\u670D"
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

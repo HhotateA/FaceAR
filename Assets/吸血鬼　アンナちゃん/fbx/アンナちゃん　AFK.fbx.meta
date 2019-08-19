@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: e5fac4a17c9a45b4eadc00902decff8d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Foot_L
+    100006: Foot_R
+    100008: hand_L
+    100010: hand_R
+    100012: Head
+    100014: headend
+    100016: hip root
+    100018: hip root_L
+    100020: hip root_L.001
+    100022: hip root_L.002
+    100024: hip root_L.003
+    100026: hip root_L.004
+    100028: hip root_L.005
+    100030: hip root_L.006
+    100032: hip root_L.007
+    100034: hip root_L.008
+    100036: hip root_L.009
+    100038: hip root_L.010
+    100040: hip root_L.011
+    100042: hip root_L.012
+    100044: hip root_L.013
+    100046: hip root_L.014
+    100048: hip root_L.015
+    100050: hip root_L.016
+    100052: hip root_L.017
+    100054: hip root_L.018
+    100056: hip root_L.019
+    100058: hip root_L.020
+    100060: hip root_R
+    100062: hip root_R.001
+    100064: hip root_R.002
+    100066: hip root_R.003
+    100068: hip root_R.004
+    100070: hip root_R.005
+    100072: hip root_R.006
+    100074: hip root_R.007
+    100076: hip root_R.008
+    100078: hip root_R.009
+    100080: hip root_R.010
+    100082: hip root_R.011
+    100084: hip root_R.012
+    100086: hip root_R.013
+    100088: hip root_R.014
+    100090: hip root_R.015
+    100092: hip root_R.016
+    100094: hip root_R.017
+    100096: hip root_R.018
+    100098: hip root_R.019
+    100100: hip root_R.020
+    100102: Hips
+    100104: Hips.001
+    100106: Hips.002
+    100108: Hips.003
+    100110: Hips.004
+    100112: Hips.005
+    100114: Hips.006
+    100116: Hips.007
+    100118: Hips.008
+    100120: Index1_L
+    100122: Index1_R
+    100124: Index2_L
+    100126: Index2_R
+    100128: Index3_L
+    100130: Index3_R
+    100132: LeftEye
+    100134: Little1_L
+    100136: Little1_R
+    100138: Little2_L
+    100140: Little2_R
+    100142: Little3_L
+    100144: Little3_R
+    100146: Lower Arm_L
+    100148: Lower Arm_L.001
+    100150: Lower Arm_L.003
+    100152: Lower Arm_L.004
+    100154: Lower Arm_L.005
+    100156: Lower Arm_L.007
+    100158: Lower Arm_L.008
+    100160: Lower Arm_L.010
+    100162: Lower Arm_L.011
+    100164: Lower Arm_L.013
+    100166: Lower Arm_R
+    100168: Lower Arm_R.001
+    100170: Lower Arm_R.003
+    100172: Lower Arm_R.004
+    100174: Lower Arm_R.005
+    100176: Lower Arm_R.007
+    100178: Lower Arm_R.008
+    100180: Lower Arm_R.010
+    100182: Lower Arm_R.011
+    100184: Lower Arm_R.013
+    100186: Lower Leg_L
+    100188: Lower Leg_R
+    100190: maegami root
+    100192: maegami root.001
+    100194: maegami root.002
+    100196: maegami root.003
+    100198: maegami root.004
+    100200: maegami root.005
+    100202: maegami root.006
+    100204: maegami root.007
+    100206: maegami root.008
+    100208: maegami root.009
+    100210: maegami root.010
+    100212: maegami root.011
+    100214: maegami root.012
+    100216: maegami root.013
+    100218: maegami root.014
+    100220: maegami root.015
+    100222: maegami root.016
+    100224: maegami root_L
+    100226: maegami root_L.001
+    100228: maegami root_L.002
+    100230: maegami root_L.003
+    100232: maegami root_L.004
+    100234: maegami root_L.005
+    100236: maegami root_R
+    100238: maegami root_R.001
+    100240: maegami root_R.002
+    100242: maegami root_R.003
+    100244: maegami root_R.004
+    100246: maegami root_R.005
+    100248: Middle1_L
+    100250: Middle1_R
+    100252: Middle2_L
+    100254: Middle2_R
+    100256: Middle3_L
+    100258: Middle3_R
+    100260: Neck
+    100262: RightEye
+    100264: Ring1_L
+    100266: Ring1_R
+    100268: Ring2_L
+    100270: Ring2_R
+    100272: Ring3_L
+    100274: Ring3_R
+    100276: Shoulder_L
+    100278: Shoulder_R
+    100280: Spine
+    100282: Thumb1_L
+    100284: Thumb1_R
+    100286: Thumb2_L
+    100288: Thumb2_R
+    100290: Thumb3_L
+    100292: Thumb3_R
+    100294: Toes_L
+    100296: Toes_R
+    100298: Upper Arm_L
+    100300: Upper Arm_R
+    100302: Upper Leg_L
+    100304: Upper Leg_R
+    100306: usirogami root
+    100308: usirogami root.001
+    100310: usirogami root.002
+    100312: usirogami root.003
+    100314: usirogami root.004
+    100316: usirogami2_L
+    100318: usirogami2_R
+    100320: usirogami3_L
+    100322: usirogami3_R
+    100324: usirogami_L
+    100326: usirogami_R
+    100328: "\u30A2\u30DB\u6BDB"
+    100330: //RootNode
+    100332: "\u30EC\u30FC\u30B9"
+    100334: "\u4F53"
+    100336: "\u524D\u9AEA"
+    100338: "\u670D"
+    100340: "\u68FA\u6876\u3000\u4E0B"
+    100342: "\u68FA\u6876\u3000\u84CB"
+    100344: "\u6A2A\u9AEA"
+    100346: "\u770B\u677F"
+    100348: "\u9854.001"
+    100350: "\u9AEA\u306E\u5F71"
+    400000: Armature
+    400002: Chest
+    400004: Foot_L
+    400006: Foot_R
+    400008: hand_L
+    400010: hand_R
+    400012: Head
+    400014: headend
+    400016: hip root
+    400018: hip root_L
+    400020: hip root_L.001
+    400022: hip root_L.002
+    400024: hip root_L.003
+    400026: hip root_L.004
+    400028: hip root_L.005
+    400030: hip root_L.006
+    400032: hip root_L.007
+    400034: hip root_L.008
+    400036: hip root_L.009
+    400038: hip root_L.010
+    400040: hip root_L.011
+    400042: hip root_L.012
+    400044: hip root_L.013
+    400046: hip root_L.014
+    400048: hip root_L.015
+    400050: hip root_L.016
+    400052: hip root_L.017
+    400054: hip root_L.018
+    400056: hip root_L.019
+    400058: hip root_L.020
+    400060: hip root_R
+    400062: hip root_R.001
+    400064: hip root_R.002
+    400066: hip root_R.003
+    400068: hip root_R.004
+    400070: hip root_R.005
+    400072: hip root_R.006
+    400074: hip root_R.007
+    400076: hip root_R.008
+    400078: hip root_R.009
+    400080: hip root_R.010
+    400082: hip root_R.011
+    400084: hip root_R.012
+    400086: hip root_R.013
+    400088: hip root_R.014
+    400090: hip root_R.015
+    400092: hip root_R.016
+    400094: hip root_R.017
+    400096: hip root_R.018
+    400098: hip root_R.019
+    400100: hip root_R.020
+    400102: Hips
+    400104: Hips.001
+    400106: Hips.002
+    400108: Hips.003
+    400110: Hips.004
+    400112: Hips.005
+    400114: Hips.006
+    400116: Hips.007
+    400118: Hips.008
+    400120: Index1_L
+    400122: Index1_R
+    400124: Index2_L
+    400126: Index2_R
+    400128: Index3_L
+    400130: Index3_R
+    400132: LeftEye
+    400134: Little1_L
+    400136: Little1_R
+    400138: Little2_L
+    400140: Little2_R
+    400142: Little3_L
+    400144: Little3_R
+    400146: Lower Arm_L
+    400148: Lower Arm_L.001
+    400150: Lower Arm_L.003
+    400152: Lower Arm_L.004
+    400154: Lower Arm_L.005
+    400156: Lower Arm_L.007
+    400158: Lower Arm_L.008
+    400160: Lower Arm_L.010
+    400162: Lower Arm_L.011
+    400164: Lower Arm_L.013
+    400166: Lower Arm_R
+    400168: Lower Arm_R.001
+    400170: Lower Arm_R.003
+    400172: Lower Arm_R.004
+    400174: Lower Arm_R.005
+    400176: Lower Arm_R.007
+    400178: Lower Arm_R.008
+    400180: Lower Arm_R.010
+    400182: Lower Arm_R.011
+    400184: Lower Arm_R.013
+    400186: Lower Leg_L
+    400188: Lower Leg_R
+    400190: maegami root
+    400192: maegami root.001
+    400194: maegami root.002
+    400196: maegami root.003
+    400198: maegami root.004
+    400200: maegami root.005
+    400202: maegami root.006
+    400204: maegami root.007
+    400206: maegami root.008
+    400208: maegami root.009
+    400210: maegami root.010
+    400212: maegami root.011
+    400214: maegami root.012
+    400216: maegami root.013
+    400218: maegami root.014
+    400220: maegami root.015
+    400222: maegami root.016
+    400224: maegami root_L
+    400226: maegami root_L.001
+    400228: maegami root_L.002
+    400230: maegami root_L.003
+    400232: maegami root_L.004
+    400234: maegami root_L.005
+    400236: maegami root_R
+    400238: maegami root_R.001
+    400240: maegami root_R.002
+    400242: maegami root_R.003
+    400244: maegami root_R.004
+    400246: maegami root_R.005
+    400248: Middle1_L
+    400250: Middle1_R
+    400252: Middle2_L
+    400254: Middle2_R
+    400256: Middle3_L
+    400258: Middle3_R
+    400260: Neck
+    400262: RightEye
+    400264: Ring1_L
+    400266: Ring1_R
+    400268: Ring2_L
+    400270: Ring2_R
+    400272: Ring3_L
+    400274: Ring3_R
+    400276: Shoulder_L
+    400278: Shoulder_R
+    400280: Spine
+    400282: Thumb1_L
+    400284: Thumb1_R
+    400286: Thumb2_L
+    400288: Thumb2_R
+    400290: Thumb3_L
+    400292: Thumb3_R
+    400294: Toes_L
+    400296: Toes_R
+    400298: Upper Arm_L
+    400300: Upper Arm_R
+    400302: Upper Leg_L
+    400304: Upper Leg_R
+    400306: usirogami root
+    400308: usirogami root.001
+    400310: usirogami root.002
+    400312: usirogami root.003
+    400314: usirogami root.004
+    400316: usirogami2_L
+    400318: usirogami2_R
+    400320: usirogami3_L
+    400322: usirogami3_R
+    400324: usirogami_L
+    400326: usirogami_R
+    400328: "\u30A2\u30DB\u6BDB"
+    400330: //RootNode
+    400332: "\u30EC\u30FC\u30B9"
+    400334: "\u4F53"
+    400336: "\u524D\u9AEA"
+    400338: "\u670D"
+    400340: "\u68FA\u6876\u3000\u4E0B"
+    400342: "\u68FA\u6876\u3000\u84CB"
+    400344: "\u6A2A\u9AEA"
+    400346: "\u770B\u677F"
+    400348: "\u9854.001"
+    400350: "\u9AEA\u306E\u5F71"
+    2100000: "\u770B\u677F"
+    2100002: "\u9AEA"
+    2100004: "\u670D"
+    2100006: "\u9AEA\u306E\u5F71"
+    2100008: "\u4F53"
+    2100010: "\u9854.001"
+    2100012: "\u8868\u60C5\u7528.001"
+    2300000: "\u68FA\u6876\u3000\u4E0B"
+    2300002: "\u68FA\u6876\u3000\u84CB"
+    2300004: "\u770B\u677F"
+    3300000: "\u68FA\u6876\u3000\u4E0B"
+    3300002: "\u68FA\u6876\u3000\u84CB"
+    3300004: "\u770B\u677F"
+    4300000: "\u68FA\u6876\u3000\u4E0B"
+    4300002: "\u68FA\u6876\u3000\u84CB"
+    4300004: "\u770B\u677F"
+    4300006: "\u30A2\u30DB\u6BDB"
+    4300008: "\u30EC\u30FC\u30B9"
+    4300010: "\u9AEA\u306E\u5F71"
+    4300012: "\u4F53"
+    4300014: "\u6A2A\u9AEA"
+    4300016: "\u524D\u9AEA"
+    4300018: "\u670D"
+    4300020: "\u9854.001"
+    9500000: //RootNode
+    13700000: "\u30A2\u30DB\u6BDB"
+    13700002: "\u30EC\u30FC\u30B9"
+    13700004: "\u4F53"
+    13700006: "\u524D\u9AEA"
+    13700008: "\u670D"
+    13700010: "\u6A2A\u9AEA"
+    13700012: "\u9854.001"
+    13700014: "\u9AEA\u306E\u5F71"
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
