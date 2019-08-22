@@ -5,9 +5,9 @@ using UnityEngine.EventSystems;
 using GoogleARCore;
 
 public class TouchRecenter : MonoBehaviour {
-    public Transform HeadTarget; 
-    public float height = 0.9f;
-    public Transform vrm ; 
+    public Transform HeadTarget {set;get;}
+    public float height {set;get;}
+    public Transform vrm {set;get;} 
 
 
     // Use this for initialization
