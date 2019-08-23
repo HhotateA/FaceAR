@@ -7,14 +7,20 @@ public class TestCapture : MonoBehaviour
 {
     [SerializeField] private GameObject[] uis;
     private string _fileName = "";
+    public bool screenShot;
+    void Start(){
+        screenShot = false;
+    }
     public void ScreenShot(){
         StartCoroutine(ScreenShotEmu());
     }
     IEnumerator ScreenShotEmu(){
+        screenShot = true;
         for(int i=0;i<uis.Length;i++) uis[i].SetActive(false);
         _fileName = "Screenshot" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".png";
         yield return CaptureScreenshotProcess();
         for(int i=0;i<uis.Length;i++) uis[i].SetActive(true); 
+        screenShot = false;
         yield return MediaDirWriteFileProcess();
         //ScreenCapture.CaptureScreenshot(Application.dataPath + "/" + _fileName);
         //CaptureScreenAndroid.CaptureScreen (this);

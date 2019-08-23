@@ -30,6 +30,15 @@
         <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
         <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
         <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
+        <data android:scheme="urn" android:path="ietf:wg:oauth:2.0:oob" />
       </intent-filter>
       <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
     </activity>

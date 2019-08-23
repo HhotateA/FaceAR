@@ -12,6 +12,8 @@ public class PinchInOut : MonoBehaviour {
     //直前の2点間の距離.
     private float backDist = 0.0f;
     [SerializeField] private float v = 1.5f;
+    public float avatarOriginHeight;
+    public float avatarHeight;
 
     // Update is called once per frame
     void Start(){
@@ -36,9 +38,10 @@ public class PinchInOut : MonoBehaviour {
                 // タッチ位置の移動後、長さを再測し、前回の距離からの相対値を取る。
                 float newDist = Vector2.Distance (t1.position, t2.position);
                 v = v + (newDist - backDist) / 10000.0f;
-                v=Mathf.Clamp(v,vMin,vMax);
-                go.transform.localScale = new Vector3(v, v, v);
             }
         }
+        v=Mathf.Clamp(v,vMin,vMax);
+        go.transform.localScale = new Vector3(v, v, v);
+        avatarHeight = avatarOriginHeight * v;
     }
 }

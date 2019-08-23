@@ -14,6 +14,8 @@ public class VRMCatcher : MonoBehaviour
     [SerializeField] private BaseDist mBaseDist;
     [SerializeField] private RuntimeAnimatorController animatorController;
     [SerializeField] private Transform mainC;
+    [SerializeField] TestCapture screenCapture;
+    public bool screenShot;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class VRMCatcher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        screenShot = screenCapture.screenShot;
         if(!_VRM){
             try{
                 _VRM = transform.Find("VRM").gameObject;
@@ -32,7 +35,10 @@ public class VRMCatcher : MonoBehaviour
         }
     }
     void IKSetter(GameObject vrmRoot){
-        vrmRoot.AddComponent<PinchInOut>();
+        StartCoroutine(lastSetup(vrmRoot));
+    }
+        
+    IEnumerator lastSetup(GameObject vrmRoot){
         VRMFirstPerson vrmFirstPerson = vrmRoot.GetComponent<VRMFirstPerson>() as VRMFirstPerson;
         TouchRecenter vrmRecenter = vrmRoot.AddComponent<TouchRecenter>() as TouchRecenter;
         vrmRecenter.HeadTarget = _TrackingRoot;
@@ -40,8 +46,13 @@ public class VRMCatcher : MonoBehaviour
         vrmRecenter.vrm = vrmRoot.transform;
         vrmRecenter.mBaseDist = mBaseDist;
         vrmRecenter.animatorController = animatorController;
+        vrmRecenter.mVRMCatcher = this;
+        PinchInOut mPinchInOut = vrmRoot.AddComponent<PinchInOut>() as PinchInOut;
+        vrmRecenter.mPinchiInOut = mPinchInOut;
         vrmRoot.GetComponent<VRMLookAtHead>().Target = mainC.transform;
+
         VRIK vrmIK = vrmRoot.AddComponent<VRIK>() as VRIK;
+        vrmIK.solver.IKPositionWeight = 0f;
         vrmIK.solver.spine.headTarget = _Headtarget;
         vrmIK.solver.leftArm.target = _LeftTarget;
         vrmIK.solver.rightArm.target = _RightTarget;
@@ -55,10 +66,14 @@ public class VRMCatcher : MonoBehaviour
         vrmIK.solver.rightArm.shoulderRotationWeight = 0f;
         vrmIK.solver.rightArm.shoulderTwistWeight = 0f;
         vrmIK.solver.rightArm.bendGoalWeight = 0f;
+
+        GameObject avatarCameraPos = new GameObject("FirstPersonCameraPos") as GameObject;
+        avatarCameraPos.transform.parent = vrmFirstPerson.FirstPersonBone.transform;
+        avatarCameraPos.transform.localPosition = vrmFirstPerson.FirstPersonOffset;
+        mPinchInOut.avatarOriginHeight = avatarCameraPos.transform.position.y;
+
+        yield return new WaitForSeconds(0.1f);
+        vrmIK.references.head = avatarCameraPos.transform;
+        vrmIK.solver.IKPositionWeight = 1f;
     }
-    /*
-    IEnumerator IKSetting(){
-        return ;
-    }
-    */
 }

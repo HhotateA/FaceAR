@@ -1176,6 +1176,7 @@ MonoBehaviour:
   mBaseDist: {fileID: 1260069844}
   animatorController: {fileID: 9100000, guid: a86521d71b5120248937a3f6b6556f8a, type: 2}
   mainC: {fileID: 1299963254}
+  screenCapture: {fileID: 676899575}
 --- !u!114 &1260069844
 MonoBehaviour:
   m_ObjectHideFlags: 0
