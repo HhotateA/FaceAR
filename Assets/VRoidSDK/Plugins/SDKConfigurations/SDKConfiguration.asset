@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ApplicationId: NhgvJmpxEAtcwXG6_U16y3s_yBPP8fNCGpdcqMF763c
   Secret: ItqnlmRNObIIP15sPb-E_AZx7hLpftAhqGUPjTecPFQ
-  AndroidUrlScheme: "urn:ietf:wg:oauth:2.0:oob\t "
+  AndroidUrlScheme: urn:ietf:wg:oauth:2.0:oob
   IOSUrlScheme: 
   Scope:
     Default: 1

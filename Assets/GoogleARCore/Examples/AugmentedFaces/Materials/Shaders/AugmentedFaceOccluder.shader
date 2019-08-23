@@ -37,6 +37,7 @@ SubShader {
 
             fixed4 frag (v2f i) : SV_Target
             {
+                discard;
                 fixed4 col = fixed4(0,0,0,0);
                 return col;
             }
